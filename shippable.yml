@@ -15,3 +15,4 @@ before_script:
 script:
   - cd sample
   - lein test2junit
+  - sudo npm install n -g
